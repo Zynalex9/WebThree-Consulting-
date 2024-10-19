@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Neue';
+    src: url('./fonts//NeueHaasDisplayBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face{
+    font-family: 'Thunder';
+    src:url('./fonts/Thunder-ExtraBoldLC.otf')format('truetype');
+    
+  }
