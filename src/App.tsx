@@ -8,6 +8,7 @@ import Team from "./components/Team";
 import Loader from "./components/Loader";
 import Form from "./components/Form";
 import ButtonSection from "./components/ButtonSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Team/>
       <Form/>
       <ButtonSection/>
+      <Footer/>
     </main>
   );
 }
