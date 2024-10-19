@@ -1,7 +1,7 @@
 
 const Services = () => {
   return (
-    <div className="border-b">
+    <div className="border-b" id="services">
       <div className="border-b">
         <section className="md:px-24">
           <div className="main h-[40vh] w-full flex items-center justify-center">

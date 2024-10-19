@@ -7,17 +7,19 @@ import Services from "./components/Services";
 import Team from "./components/Team";
 import Loader from "./components/Loader";
 import Form from "./components/Form";
+import ButtonSection from "./components/ButtonSection";
 
 function App() {
   return (
     <main className="bg-black min-h-screen text-main-white">
-      {/* <Loader/> */}
+      <Loader/>
       <NavBar />
       <Hero />
       <Tagline />
       <Services/>
       <Team/>
       <Form/>
+      <ButtonSection/>
     </main>
   );
 }

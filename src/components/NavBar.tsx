@@ -5,7 +5,7 @@ const NavBar = () => {
       <h1 className="font-Neue text-main-white text-3xl">WEB THREE</h1>
       <div className="links flex gap-4">
         <h2 className='text-xl'><a href="#">HOME</a></h2>
-        <h2 className='text-xl'><a href="#">SERVICES</a></h2>
+        <h2 className='text-xl'><a href="#services">SERVICES</a></h2>
         <h2 className='text-xl'><a href="#">PARTNERS</a></h2>
         <h2 className='text-xl'><a href="#">CLIENTS</a></h2>
         <h2 className='text-xl'><a href="#">CONTACT</a></h2>

@@ -1,11 +1,11 @@
 const Form = () => {
   return (
     <>
-      <div className="md:px-24">
+      <div className="md:px-24" >
         <div className="section-one h-[40vh] w-full border flex items-center justify-center">
           <h1 className="font-Thunder text-9xl pt-20">GET STARTED</h1>
         </div>
-        <div className="form h-[100vh]">
+        <div className="form ">
           <div className="section w-full flex items-center justify-between border-[1px] py-16 px-8">
             <div className="heading w-1/3">
               <h1 className="text-xl">

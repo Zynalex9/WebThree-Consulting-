@@ -78,6 +78,7 @@ const Team = () => {
   );
 
   return (
+    <div className="border-b" id="team">
     <div className="min-h-screen md:px-24">
       <div className="section-1 h-[50vh] flex items-center justify-center border">
         <h1 className="font-Thunder text-9xl">MEET THE TEAM</h1>
@@ -108,6 +109,7 @@ const Team = () => {
           "https://cdn.prod.website-files.com/625416e0a64e0c6895f79107/62594ce7007f387cf5e68bac_zooper-dooper-pp%20(1).jpg"
         )}
       </div>
+    </div>
     </div>
   );
 };
