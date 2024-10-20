@@ -32,7 +32,7 @@ const NavBar = () => {
   }, [isMenuOpen]); 
 
   return (
-    <nav className="px-6 md:px-24 py-4 flex justify-between items-center border-b">
+    <nav className="px-6 md:px-24 w-full py-4 flex justify-between items-center border-b">
       <h1 className="font-Neue text-main-white text-3xl">WEB THREE</h1>
       <div className="hidden md:flex gap-4">
         <h2 className="text-xl"><a href="#">HOME</a></h2>

@@ -41,6 +41,7 @@ const Loader = () => {
       duration: 1,
       onComplete: () => {
         document.body.style.overflow = "auto";
+        document.body.style.overflowX = "hidden";
       },
     });
 
@@ -50,7 +51,7 @@ const Loader = () => {
   }, []);
 
   return (
-    <div className="loader fixed top-0 left-0 w-full h-screen flex items-center justify-between px-24 z-50 bg-black">
+    <div className="loader fixed top-0 left-0 w-full h-screen flex items-center justify-between px-6 md:px-24 z-50 bg-black">
       <div className="flex items-center justify-center h-full w-full">
         <h1 className="first font-Thunder text-main-white text-8xl">WEB THREE</h1>
       </div>
