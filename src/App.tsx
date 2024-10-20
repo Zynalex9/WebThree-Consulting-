@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <main className="bg-black min-h-screen text-main-white">
+    <main className="bg-black min-h-screen text-main-white selection:bg-main-green selection:text-black">
       <Loader/>
       <NavBar />
       <Hero />
